@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YourBrand - Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="header">
+    <div class="container nav">
+      <h2 class="logo">GusPol</h2>
+      <nav>
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#" class="btn-primary">Start Free</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Build better, faster, smarter.</h1>
+        <p>Join thousands of developers using our tools to ship faster and grow their businesses effortlessly.</p>
+      </div>
+      <div class="hero-image">
+        <img src="Teamwork.png" alt="Team Working">
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="container">
+      <h2 class="section-title">Why Choose Us?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <i class="fas fa-bolt"></i>
+          <h3>Fast Performance</h3>
+          <p>Our platform is optimized for blazing-fast delivery and minimal latency.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-lock"></i>
+          <h3>Secure by Design</h3>
+          <p>We use industry-leading standards to protect your data at every step.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-cogs"></i>
+          <h3>Easy Integration</h3>
+          <p>Plug and play with our flexible API system and pre-built components.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <div class="container">
+      <h2 class="section-title">What Our Users Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial">
+          <p>"This is hands down the most developer-friendly tool I've used in years."</p>
+          <h4>Jane Doe</h4>
+          <span>Frontend Engineer</span>
+        </div>
+        <div class="testimonial">
+          <p>"We scaled our startup 3x faster after switching to YourBrand."</p>
+          <h4>Mark Reed</h4>
+          <span>CTO, FastTech</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="pricing">
+    <div class="container">
+      <h2 class="section-title">Pricing Plans</h2>
+      <div class="pricing-grid">
+        <div class="price-card">
+          <h3>Starter</h3>
+          <p class="price">$0<span>/mo</span></p>
+          <ul>
+            <li>✔ Basic Features</li>
+            <li>✔ 1 Project</li>
+            <li>✔ Email Support</li>
+          </ul>
+          <a href="#" class="btn-primary">Get Started</a>
+        </div>
+        <div class="price-card highlighted">
+          <h3>Pro</h3>
+          <p class="price">$29<span>/mo</span></p>
+          <ul>
+            <li>✔ All Starter Features</li>
+            <li>✔ Unlimited Projects</li>
+            <li>✔ Priority Support</li>
+          </ul>
+          <a href="#" class="btn-primary">Upgrade Now</a>
+        </div>
+        <div class="price-card">
+          <h3>Enterprise</h3>
+          <p class="price">Custom</p>
+          <ul>
+            <li>✔ All Pro Features</li>
+            <li>✔ Dedicated Account Manager</li>
+            <li>✔ Custom Integrations</li>
+          </ul>
+          <a href="#" class="btn-primary">Contact Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <div class="container cta-box">
+      <h2>Start building with YourBrand today.</h2>
+      <p>It only takes a minute to get started — and it's free!</p>
+      <a href="#" class="btn-primary">Join for Free</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2025 GusPol. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Script for hamburger -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+HTML:
+
+Structuring sections clearly (header, features, pricing, footer, etc.)
+
+Using semantic tags and meaningful class names
+
+Organizing navigation and content hierarchically
+
+
+
+CSS:
+
+Creating responsive layouts with Flexbox and Grid
+
+Styling navigation bars and implementing hamburger menus
+
+Using colors, typography, and spacing for visual hierarchy
+
+Adding interactive elements like buttons with hover effects
+
+Implementing consistent design with reusable styles
+
+Handling responsive breakpoints and mobile-friendly design

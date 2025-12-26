@@ -1,0 +1,4 @@
+Bolt	Feature “Fast Performance”	<i class="fas fa-bolt"></i>
+Lock	Feature “Secure by Design”	<i class="fas fa-lock"></i>
+Cogs	Feature “Easy Integration”	<i class="fas fa-cogs"></i>
+Bars (Hamburger)	Mobile menu toggle	<i class="fas fa-bars"></i>

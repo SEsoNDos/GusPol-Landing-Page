@@ -1,0 +1,6 @@
+Primary	#3B82F6	Bright blue for buttons, highlights, and important elements
+Background	#F9FAFB	Very light gray/white background for sections
+Text	#1F2937	Dark gray for main text for readability
+Muted Text	#6B7280	Medium gray for secondary text, subtitles, and less emphasis
+White	#FFFFFF	Pure white for backgrounds, text on colored buttons, and containers
+Gray Border	#E5E7EB	Light gray for borders and subtle separations
